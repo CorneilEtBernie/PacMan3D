@@ -25,12 +25,13 @@ img {
 }
 .iframe-wrapper iframe {
     border: 0;
-    height: 600px; /* Hauteur explicite de la vidéo */
+    height: 600px !important; /* Hauteur explicite de la vidéo */
     left: 0;
     position: absolute;
     top: 0;
-    width: 800px; /* Largeur explicite de la vidéo */
+    width: 800px !important; /* Largeur explicite de la vidéo */
  }
+ 
 
 #footer {
     padding: 1rem 0 2rem;
