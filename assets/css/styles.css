@@ -1,12 +1,12 @@
 
 body {
-    background: #000000;
+    background: #f8f8f8;
 }
 
 h1 {
 	margin: 1rem 0;
 	padding-bottom: 1rem;
-	border-bottom: 1px solid rgb(231, 216, 7);
+	border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
 img {
@@ -14,28 +14,25 @@ img {
 }
 
 #main {
-    background: #000000;
+    background: #fff;
     padding: 1rem 0 2rem;
 }
 
 .iframe-wrapper {
   overflow: hidden;
-  padding-top: 56.25%; /* 16:9 ratio (9/16 = 0.5625) */
+  padding-top: 76.25%; /* 16:9 ratio (9/16 = 0.5625) */
   position: relative;
 }
 .iframe-wrapper iframe {
-    border: 0;
-    height: 200%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 200%;
-    /* Ajoutez les lignes suivantes */
-    min-width: 1000px; /* Largeur minimale de la vidéo */
-    min-height: 800px; /* Hauteur minimale de la vidéo */
- }
+   border: 0;
+   height: 200%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 200%;
+}
 
 #footer {
     padding: 1rem 0 2rem;
-    border-top: 1px solid rgba(238, 234, 1, 0.973);
+    border-top: 1px solid rgba(0, 0, 0, .1);
 }
