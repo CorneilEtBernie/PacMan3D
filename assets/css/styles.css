@@ -31,8 +31,8 @@ img {
     top: 0;
     width: 100%;
     /* Ajoutez les lignes suivantes */
-    min-width: 800px; /* Largeur minimale de la vidéo */
-    min-height: 600px; /* Hauteur minimale de la vidéo */
+    min-width: 1000px; /* Largeur minimale de la vidéo */
+    min-height: 800px; /* Hauteur minimale de la vidéo */
  }
 
 #footer {
