@@ -1,126 +1,100 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PacMan3D - Projet L2</title>
-    <!-- Font Awesome icons (free version) -->
-    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap) -->
-    <link href="css/styles.css" rel="stylesheet" />
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<meta name="title" content="Blast" />
+
+
+<meta name="description" content="PacMan 3D, projet du groupe L2O2" />
+
+
+<link rel="shortcut icon" type="image/x-icon" href="/PacMan3D/favicon.ico?v=220206134960d79da0f8fe3e60a3672c89a25471">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+<link rel="stylesheet" href="/PacMan3D/assets/css/style.css?v=220206134960d79da0f8fe3e60a3672c89a25471" />
+
+<title>
+	Blast
+	– Accueil
+</title>
+
 </head>
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">PacMan3D</a>
-            <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#description">Description</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#caracteristiques">Caractéristiques</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#progression">Progression</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<body>
 
-    <!-- Masthead-->
-    <header class="masthead bg-primary text-white text-center">
-        <div class="container d-flex align-items-center flex-column">
-            <!-- Masthead Heading-->
-            <h1 class="masthead-heading text-uppercase mb-0">PacMan3D</h1>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-gamepad"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0">Projet de programmation en L2 réalisé sur Unity</p>
-        </div>
-    </header>
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<div class="container">
+		<a class="navbar-brand" href="/PacMan3D">PacMan3D</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link" href="/PacMan3D/">Accueil</a>
+				<a class="nav-item nav-link" href="/PacMan3D/downloads">Téléchargements</a>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Le projet
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="/PacMan3D/changelog">Évolution</a>
+						<a class="dropdown-item" href="/PacMan3D/features">Fonctionnalités</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="/PacMan3D/libraries">Librairies utilisées</a>
+					</div>
+				</li>
+				<a class="nav-item nav-link" href="/PacMan3D/team">Le groupe</a>
+				<a class="nav-item nav-link" href="/PacMan3D/contact">Nous contacter</a>
+			</div>
+		</div>
+	</div>
+</nav>
 
-    <!-- Description Section-->
-    <section class="page-section" id="description">
-        <div class="container">
-            <!-- Description Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Description du jeu</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Description Section Content-->
-            <div class="row">
-                <div class="col-lg-4 ml-auto"><p class="lead">[Ajoutez ici une description détaillée de votre jeu]</p></div>
-                <div class="col-lg-4 mr-auto"><p class="lead">[Ajoutez ici une description détaillée de votre jeu]</p></div>
-            </div>
-        </div>
-    </section>
+<div id="main" class="pt-0">
+	<div class="container">
+		<img src="/PacMan3D/long-wallpaper.png" alt="Screenshot for Blast" />
 
-    <!-- Caractéristiques Section-->
-    <section class="page-section bg-primary text-white mb-0" id="caracteristiques">
-        <div class="container">
-            <!-- Caractéristiques Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-white">Caractéristiques du jeu</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Caractéristiques Section Content-->
-            <div class="row">
-                <div class="col-lg-4 ml-auto"><p class="lead">[Ajoutez ici les caractéristiques spécifiques de votre jeu]</p></div>
-                <div class="col-lg-4 mr-auto"><p class="lead">[Ajoutez ici les caractéristiques spécifiques de votre jeu]</p></div>
-            </div>
-        </div>
-    </section>
+<div class="row">
+<div class="col">
 
-    <!-- Progression Section-->
-    <section class="page-section" id="progression">
-        <div class="container">
-            <!-- Progression Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Progression du projet</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Progression Section Content-->
-            <div class="row">
-                <div class="col-lg-4 ml-auto"><p class="lead">[Ajoutez ici des informations sur l'avancement de votre projet]</p></div>
-                <div class="col-lg-4 mr-auto"><p class="lead">[Ajoutez ici des informations sur l'avancement de votre projet]</p></div>
-            </div>
-        </div>
-    </section>
+<h1 id="blast">Blast</h1>
 
-    <!-- Contact Section-->
-    <section class="page-section bg-primary text-white mb-0" id="contact">
-        <div class="container">
-            <!-- Contact Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-white">Contact</h2>
-            <!-- Icon Divider-->
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
-            </div>
-            <!-- Contact Section Content-->
-            <div class="row">
-                <div class="col-lg-4 ml-auto"><p class="lead">Pour plus d'informations, veuillez nous contacter à [ajoutez ici votre adresse e-mail].</p></div>
-            </div>
-        </div>
-    </section>
+<p>PacMan 3D est un projet de jeu vidéo, engagé par le groupe d’étudiant <strong>L2O2</strong>. Vous trouverez plus d’information à propos du groupe sur <a href="team">cette page</a>.</p>
+
+<p>Le projet consiste en un PacMan3D</p>
+
+<div class="iframe-wrapper">
+	<iframe src="https://www.youtube.com/embed/EIvMK5xgZYg" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
+
+</div>
+<div class="col-lg-4 mt-3">
+	<h2>Obtenir le jeu</h2>
+
+	<p>Rendez-vous sur la page des téléchargements : <a href="/PacMan3D/downloads" class="btn btn-info btn-sm">Téléchargements</a></p>
+	<hr />
+
+	<iframe src="https://discordapp.com/widget?id=539472321379958784&amp;theme=dark" height="500" allowtransparency="true" frameborder="0" class="w-100"></iframe>
+</div>
+</div>
+	</div>
+</div>
+
+<footer id="footer">
+	<div class="container">
+		<p><b>Blast</b>, développé par <a href="/PacMan3D/team">L2O2</a>.</p>
+		<p>Université Paris Cité.</p>
+	</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="/PacMan3D/assets/js/script.js?v=220206134960d79da0f8fe3e60a3672c89a25471"></script>
+
 </body>
 </html>

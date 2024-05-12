@@ -1,55 +1,39 @@
-/* Styles généraux */
+/** Blast Project website stylesheet */
+
 body {
-    font-family: 'Montserrat', sans-serif;
-    color: #f8f9fa;
-    background-color: #000;
+    background: #f8f8f8;
 }
 
-/* Navigation */
-#mainNav {
-    background-color: #000;
-    color: #f8f9fa;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
+h1 {
+	margin: 1rem 0;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
-#mainNav a {
-    color: #f8f9fa;
-    text-decoration: none;
+img {
+	max-width: 100%;
 }
 
-#mainNav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
+#main {
+    background: #fff;
+    padding: 1rem 0 2rem;
 }
 
-/* Sections */
-section {
-    padding: 60px 0;
-    background-color: #000;
-    color: #f8f9fa;
+.iframe-wrapper {
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 ratio (9/16 = 0.5625) */
+  position: relative;
+}
+.iframe-wrapper iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
 
-section#caracteristiques {
-    background-color: #f8f9fa;
-    color: #000;
-}
-
-/* Header */
-header {
-    background-color: #000;
-    color: #f8f9fa;
-    padding: 60px 0;
-    text-align: center;
-}
-
-header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 1.2em;
+#footer {
+    padding: 1rem 0 2rem;
+    border-top: 1px solid rgba(0, 0, 0, .1);
 }
