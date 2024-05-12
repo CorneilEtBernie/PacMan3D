@@ -1,0 +1,50 @@
+/* Styles généraux */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #f8f9fa;
+    background-color: #000;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #f8f9fa;
+}
+
+/* Masthead */
+.masthead {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
+/* Sections */
+.page-section {
+    padding: 60px 0;
+}
+
+.bg-primary {
+    background-color: #343a40;
+}
+
+.text-primary {
+    color: #343a40;
+}
+
+/* Divider */
+.divider-custom .divider-custom-line {
+    border-top: 1px solid #f8f9fa;
+}
+
+.divider-custom .divider-custom-icon i {
+    color: #f8f9fa;
+}
+
+/* Contact */
+#contact {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
