@@ -24,13 +24,16 @@ img {
   position: relative;
 }
 .iframe-wrapper iframe {
-   border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;
-}
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /* Ajoutez les lignes suivantes */
+    min-width: 800px; /* Largeur minimale de la vidéo */
+    min-height: 600px; /* Hauteur minimale de la vidéo */
+ }
 
 #footer {
     padding: 1rem 0 2rem;
