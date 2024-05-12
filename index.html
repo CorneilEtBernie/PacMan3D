@@ -1,11 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PacMan3D - Projet L2</title>
+    <!-- Font Awesome icons (free version) -->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap) -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        body {
+            background-color: black;
+            color: yellow;
+            font-family: Arial, sans-serif;
+        }
+    </style>
 </head>
-<body>
-    <h1>PacMan3DAAA</h1>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">PacMan3D</a>
+            <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#description">Description</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#caracteristiques">Caractéristiques</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#progression">Progression</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">PacMan3D</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-gamepad"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Projet de programmation en L2 réalisé sur Unity</p>
+        </div>
+    </header>
+
+    <!-- Description Section-->
+    <section class="page-section" id="description">
+        <div class="container">
+            <!-- Description Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Description du jeu</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Description Section Content-->
+            <div class="row">
+                <div class="col-lg-4 ml-auto"><p class="lead">[Ajoutez ici une description détaillée de votre jeu]</p></div>
+                <div class="col-lg-4 mr-auto"><p class="lead">[Ajoutez ici une description détaillée de votre jeu]</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Caractéristiques Section-->
+    <section class="page-section bg-primary text-white mb-0" id="caracteristiques">
+        <div class="container">
+            <!-- Caractéristiques Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">Caractéristiques du jeu</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Caractéristiques Section Content-->
+            <div class="row">
+                <div class="col-lg-4 ml-auto"><p class="lead">[Ajoutez ici les caractéristiques spécifiques de votre jeu]</p></div>
+                <div class="col-lg-4 mr-auto"><p class="lead">[Ajoutez ici les caractéristiques spécifiques de votre jeu]</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progression Section-->
+    <section class="page-section" id="progression">
+        <div class="container">
+            <!-- Progression Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Progression du projet</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Progression Section Content-->
+            <div class="row">
+                <div class="col-lg-4 ml-auto"><p class="lead">[Ajoutez ici des informations sur l'avancement de votre projet]</p></div>
+                <div class="col-lg-4 mr-auto"><p class="lead">[Ajoutez ici des informations sur l'avancement de votre projet]</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section-->
+    <section class="page-section bg-primary text-white mb-0" id="contact">
+        <div class="container">
+            <!-- Contact Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">Contact</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Contact Section Content-->
+            <div class="row">
+                <div class="col-lg-4 ml-auto"><p class="lead">Pour plus d'informations, veuillez nous contacter à [ajoutez ici votre adresse e-mail].</p></div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
