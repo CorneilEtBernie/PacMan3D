@@ -25,11 +25,11 @@ img {
 }
 .iframe-wrapper iframe {
     border: 0;
-    height: 100%;
+    height: 200%;
     left: 0;
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 200%;
     /* Ajoutez les lignes suivantes */
     min-width: 1000px; /* Largeur minimale de la vidéo */
     min-height: 800px; /* Hauteur minimale de la vidéo */
