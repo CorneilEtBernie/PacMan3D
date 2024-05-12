@@ -1,13 +1,12 @@
+
 body {
-    background: black; /* Changez la couleur de fond en noir */
-    color: yellow; /* Changez la couleur du texte en jaune */
+    background: #000000;
 }
 
 h1 {
 	margin: 1rem 0;
 	padding-bottom: 1rem;
-	border-bottom: 1px solid rgba(0,0,0,.1);
-	color: yellow; /* Changez la couleur du texte en jaune */
+	border-bottom: 1px solid rgb(231, 216, 7);
 }
 
 img {
@@ -15,9 +14,8 @@ img {
 }
 
 #main {
-    background: black; /* Changez la couleur de fond en noir */
+    background: #000000;
     padding: 1rem 0 2rem;
-    color: yellow; /* Changez la couleur du texte en jaune */
 }
 
 .iframe-wrapper {
@@ -36,7 +34,5 @@ img {
 
 #footer {
     padding: 1rem 0 2rem;
-    border-top: 1px solid rgba(0, 0, 0, .1);
-    background: black; /* Changez la couleur de fond en noir */
-    color: yellow; /* Changez la couleur du texte en jaune */
+    border-top: 1px solid rgba(238, 234, 1, 0.973);
 }
