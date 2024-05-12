@@ -1,4 +1,3 @@
-/** Blast Project website script */
 
 $(document).ready(function() {
 	// Get current URL path and assign 'active' class
