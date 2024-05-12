@@ -6,45 +6,50 @@ body {
 }
 
 /* Navigation */
-.navbar {
-    background-color: #343a40;
+#mainNav {
+    background-color: #000;
+    color: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.navbar-brand,
-.nav-link {
+#mainNav a {
     color: #f8f9fa;
+    text-decoration: none;
 }
 
-/* Masthead */
-.masthead {
-    background-color: #343a40;
-    color: #f8f9fa;
+#mainNav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
 }
 
 /* Sections */
-.page-section {
+section {
     padding: 60px 0;
-}
-
-.bg-primary {
-    background-color: #343a40;
-}
-
-.text-primary {
-    color: #343a40;
-}
-
-/* Divider */
-.divider-custom .divider-custom-line {
-    border-top: 1px solid #f8f9fa;
-}
-
-.divider-custom .divider-custom-icon i {
+    background-color: #000;
     color: #f8f9fa;
 }
 
-/* Contact */
-#contact {
-    background-color: #343a40;
+section#caracteristiques {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+/* Header */
+header {
+    background-color: #000;
     color: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
 }
