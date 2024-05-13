@@ -1,4 +1,3 @@
-
 body {
     background: #f8f8f8;
 }
@@ -24,14 +23,13 @@ img {
   position: relative;
 }
 .iframe-wrapper iframe {
-    border: 0;
-    height: 600px !important; /* Hauteur explicite de la vidéo */
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 800px !important; /* Largeur explicite de la vidéo */
- }
- 
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
 
 #footer {
     padding: 1rem 0 2rem;
