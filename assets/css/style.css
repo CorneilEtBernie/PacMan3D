@@ -23,6 +23,11 @@ img {
     color: #FFEB3B;
 }
 
+body {
+    background: #070606;
+    color: #ffe500;
+}
+
 #main {
     background: #0d0d0d;
     padding: 1rem 0 2rem;
