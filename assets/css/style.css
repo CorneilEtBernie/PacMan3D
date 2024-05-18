@@ -15,6 +15,14 @@ img {
 	max-width: 100%;
 }
 
+.bg-dark {
+    background-color: #171717 !important;
+}
+
+.navbar-dark .navbar-brand {
+    color: #FFEB3B;
+}
+
 #main {
     background: #0d0d0d;
     padding: 1rem 0 2rem;
