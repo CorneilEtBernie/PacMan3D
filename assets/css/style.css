@@ -1,7 +1,8 @@
-/** PacMan3D website stylesheet */
+/** PacMan website stylesheet */
 
 body {
     background: #f8f8f8;
+    color: #e8ff00;
 }
 
 h1 {
@@ -15,7 +16,7 @@ img {
 }
 
 #main {
-    background: #fff;
+    background: #0d0d0d;
     padding: 1rem 0 2rem;
 }
 
